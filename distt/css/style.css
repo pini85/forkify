@@ -48,7 +48,7 @@ body {
 
  @media only screen and (max-width: 50em) {
   .container {
-  grid-template-rows: 5vh 24vh 71vh 20vh;
+  grid-template-rows: 10vh 24vh 71vh 20vh;
 }
  }
 
@@ -76,6 +76,12 @@ body {
     height: 2.25rem;
     width: 2.25rem;
     fill: currentColor; }
+
+     @media only screen and (max-width: 50em) {
+      .btn {
+        padding: 2,3rem 4rem;
+      }
+     }
 
 .btn-small, .btn-small:link, .btn-small:visited {
   font-size: 1.3rem;
@@ -191,6 +197,12 @@ body {
       .header { grid-row: 1/ 2; }
     }
 
+     @media only screen and (max-width: 50em) {
+      .header__logo {
+        height: 5.5rem;
+      }
+     }
+
 .search {
   background-color: #fff;
   border-radius: 10rem;
@@ -212,6 +224,12 @@ body {
       outline: none; }
     .search__field::placeholder {
       color: #DAD0CC; }
+
+       @media only screen and (max-width: 50em) {
+        .search__field {
+          font-size: 2.1rem;
+        }
+       }
 
 .likes {
   position: relative;
