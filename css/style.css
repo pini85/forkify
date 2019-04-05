@@ -48,7 +48,7 @@ body {
 
  @media only screen and (max-width: 50em) {
   .container {
- grid-template-rows: 10vh 81vh 100vh 50vh;
+ grid-template-rows: 10vh 81vh 111vh 50vh;
 }
  }
 
@@ -533,7 +533,7 @@ body {
       .recipe__info-buttons {
         visibility: visible;
         opacity: 1;
-        padding-bottom: 3rem;
+        padding-bottom: 0rem;
         transform: none;
 
 
@@ -614,6 +614,13 @@ body {
       }
       .shopping__delete {
         right: 19px !important;
+        width: 5.75rem !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+      .btn-tiny {
+        height: 3.75rem;
+        width: 3.75rem;
       }
     }
 
