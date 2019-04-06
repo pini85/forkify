@@ -43,7 +43,7 @@ body {
 
  @media only screen and (max-width: 50em) {
   .container {
- grid-template-rows: 10vh 90vh 111vh 50vh;
+ grid-template-rows: 10vh 90vh min-content 50vh;
 }
  }
 
