@@ -11,12 +11,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; }
 
-  @media only screen and (max-width: 68.75em) {
-    html { font-size: 50%; }
-  }
-  @media only screen and (max-width: 50em) {
-    html { font-size: 27%; }
-  }
+
 
 
 body {
@@ -48,7 +43,7 @@ body {
 
  @media only screen and (max-width: 50em) {
   .container {
- grid-template-rows: 10vh 81vh 111vh 50vh;
+ grid-template-rows: 10vh 90vh 111vh 50vh;
 }
  }
 
@@ -77,11 +72,7 @@ body {
     width: 2.25rem;
     fill: currentColor; }
 
-     @media only screen and (max-width: 50em) {
-      .btn {
-        padding: 2.3rem 4rem;
-      }
-     }
+
 
 .btn-small, .btn-small:link, .btn-small:visited {
   font-size: 1.3rem;
@@ -147,13 +138,7 @@ body {
   text-align: center;
   transform: skewY(-3deg); }
 
-  @media only screen and (max-width: 50em) {
-    .heading-2 {
-      transform: none;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
-  }
+
 
 
 
@@ -193,15 +178,7 @@ body {
     height: 4.5rem;
     display: block; }
 
-    @media only screen and (max-width: 50em) {
-      .header { grid-row: 1/ 2; }
-    }
 
-     @media only screen and (max-width: 50em) {
-      .header__logo {
-        height: 5.5rem;
-      }
-     }
 
 .search {
   background-color: #fff;
@@ -225,11 +202,6 @@ body {
     .search__field::placeholder {
       color: #DAD0CC; }
 
-       @media only screen and (max-width: 50em) {
-        .search__field {
-          font-size: 2.1rem;
-        }
-       }
 
 .likes {
   position: relative;
@@ -265,12 +237,7 @@ body {
     opacity: 0;
     transition: all .5s .2s; }
 
-    @media only screen and (max-width: 50em) {
-      .likes__icon {
-        height: 5rem;
-        width: 5rem;
-      }
-    }
+
 
 .results,
 .likes {
@@ -288,18 +255,6 @@ body {
     border-right: 1px solid #fff;
     text-decoration: none; }
 
-     @media only screen and (max-width: 50em) {
-      .results__link:link, .results__link:visited, .likes__link:link, .likes__link:visited {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-
-     @media only screen and (max-width: 50em) {
-      .results {
-        padding: 0;
-      }
-     }
 
 
   .results__link:hover,
@@ -319,13 +274,7 @@ body {
     position: relative;
     backface-visibility: hidden; }
 
-     @media only screen and (max-width: 50em) {
-      .results__fig, .likes__fig {
-        flex: none;
-        width: 22rem;
-        height:19.5rem;
-      }
-     }
+
 
 
     .results__fig::before,
@@ -354,13 +303,7 @@ body {
     font-weight: 600;
     margin-bottom: .3rem; }
 
-     @media only screen and (max-width: 50em) {
-      .results__name,
-      .like__name {
-        font-size: 3.3rem;
-        text-align: center;
-      }
-     }
+
   .results__author,
   .likes__author {
     font-size: 1.1rem;
@@ -368,13 +311,7 @@ body {
     text-transform: uppercase;
     font-weight: 600; }
 
-     @media only screen and (max-width: 50em) {
-      .results__author,
-      .likes__author {
-        font-size: 2.5rem;
-        text-align: center;
-      }
-     }
+
   .results__pages,
   .likes__pages {
     margin-top: 3rem;
@@ -392,44 +329,11 @@ body {
   .likes__btn--next {
     float: right; }
 
-    @media only screen and (max-width: 50em) {
-      .results__pages {
-        grid-row: 4/5;
-        grid-column: 3/4;
-        transform: translate(1rem,-26rem);
-      }
-      .btn-inline {
-        font-size: 2.2rem;
-      }
-
-    }
 
 
 
-    @media only screen and (max-width: 50em) {
-      .results {
-        grid-row: 2 / 3;
-        width: 100vw;
-      }
-    }
 
-    @media only screen and (max-width: 50em) {
-       .results__link:link, .results__link:visited,
-  .likes__link:link,
-  .likes__link:visited {
-      }
-    }
 
-    @media only screen and (max-width: 50em) {
-      .results__list {
-        grid-row: 2 / 3;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 14% repeat(2, 1fr) 14%;
-        grid-template-rows: repeat(3, 1fr);
-        padding-top: 5rem;
-      }
-    }
 
     .results__list > li:nth-child(1) {
       grid-row: 1/2;
@@ -529,16 +433,6 @@ body {
     transform: translateY(5px);
     transition: all .4s; }
 
-    @media only screen and (max-width: 50em) {
-      .recipe__info-buttons {
-        visibility: visible;
-        opacity: 1;
-        padding-bottom: 0rem;
-        transform: none;
-
-
-      }
-    }
 
 
   .recipe:hover .recipe__info-buttons {
@@ -580,53 +474,6 @@ body {
     grid-row-gap: 2.5rem;
     list-style: none;
     margin-bottom: 3rem; }
-
-    @media only screen and (max-width: 50em) {
-      .recipe__ingredient-list {
-        font-size: 2.5rem;
-      }
-      .recipe__info {
-        font-size: 2.5rem;
-      }
-      .btn-small, .btn-small:link, .btn-small:visited {
-        font-size: 2.3rem;
-      }
-
-      .heading-2 {
-        font-size: 2.8rem;
-      }
-
-      .recipe__directions-text {
-        font-size: 2.5rem !important;
-      }
-      .recipe__fig {
-        height: 24%;
-      }
-      .shopping-item {
-        padding: 2.3rem 0 !important;
-      }
-      .shopping__description {
-        font-size: 2.5rem !important;
-      }
-      .shopping__count-value {
-        width: 9.7rem !important;
-        font-size: 2.2rem !important;
-      }
-      .shopping__delete {
-        right: 19px !important;
-        width: 5.75rem !important;
-        opacity: 1 !important;
-        visibility: visible !important;
-      }
-      .btn-tiny {
-        height: 3.75rem;
-        width: 3.75rem;
-      }
-    }
-
-
-
-
 
 
   .recipe__item {
@@ -740,6 +587,240 @@ body {
     height: 100%;
     width: 100%;
     }
+
+     @media only screen and (max-width: 68.75em) {
+    html { font-size: 50%; }
+  }
+
+  @media only screen and (max-width: 30.4em) {
+    html { font-size: 27%; }
+  }
+
+@media only screen and (max-width: 28em) {
+    html { font-size: 18%; }
+  }
+
+
+
+
+
+
+     @media only screen and (max-width: 30.4em) {
+      .recipe__ingredient-list {
+        font-size: 3.5rem;
+      }
+      .recipe__info {
+        font-size: 2.5rem;
+      }
+      .btn-small, .btn-small:link, .btn-small:visited {
+        font-size: 2.3rem;
+      }
+
+      .heading-2 {
+        font-size: 2.8rem;
+      }
+
+      .recipe__directions-text {
+        font-size: 2.5rem !important;
+      }
+      .recipe__fig {
+        height: 24%;
+      }
+      .shopping-item {
+        padding: 2.3rem 0 !important;
+      }
+      .shopping__description {
+        font-size: 2.5rem !important;
+      }
+      .shopping__count-value {
+        width: 9.7rem !important;
+        font-size: 2.2rem !important;
+      }
+      .shopping__delete {
+        right: 19px !important;
+        width: 5.75rem !important;
+        opacity: 1 !important;
+        visibility: visible !important:;
+      }
+      .btn-tiny {
+        height: 3.75rem;
+        width: 3.75rem;
+      }
+
+      .search {
+        width: 48vw;
+      }
+    }
+     @media only screen and (max-width: 30.4em){
+      .header {
+        justify-content: space-between;
+      }
+    }
+
+    @media only screen and (max-width: 33.3em){
+      .header {
+        justify-content: space-evenly;
+      }
+    }
+
+
+     @media only screen and (max-width: 50em) {
+      .header { grid-row: 1/ 2; }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     @media only screen and (max-width: 30.4em) {
+      .header__logo {
+        height: 4rem;
+        margin-left: 3rem;
+      }
+     }
+
+     @media only screen and (max-width: 30.4em) {
+      .likes__icon {
+        height: 4rem;
+        width: 4rem;
+        margin-right: -2rem;
+      }
+    } @media only screen and (max-width: 30.4em) {
+      .btn {
+        padding: 1.3rem 3rem;
+      }
+
+      .recipe__title span {
+        font-size: 4rem;
+      }
+     }
+
+     @media only screen and (max-width: 50em) {
+      .results__pages {
+        grid-row: 4/5;
+        grid-column: 3/4;
+        transform: translateY(-12vh);
+      }
+      .btn-inline {
+        font-size: 4rem;
+      }
+
+    }
+
+    @media only screen and (max-width: 30.4em) {
+      .results__link:link, .results__link:visited, .likes__link:link, .likes__link:visited {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+
+
+     @media only screen and (max-width: 50em) {
+      .results {
+        grid-row: 2 / 3;
+        width: 100vw;
+        padding: 0;
+      }
+    }
+
+    @media only screen and (max-width: 30.4em) {
+       .results__link:link, .results__link:visited,
+  .likes__link:link,
+  .likes__link:visited {
+      }
+    }
+
+    @media only screen and (max-width: 50em) {
+      .results__list {
+        grid-row: 2 / 3;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 14% repeat(2, 1fr) 14%;
+        grid-template-rows: repeat(3, min-content) 10%;
+        padding-top: 3rem;
+      }
+    }
+
+    @media only screen and (max-width: 30.4em) {
+    .heading-2 {
+      transform: none;
+      margin-bottom: 1.5rem;
+      margin-top: 2.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 30.4em) {
+        .search__field {
+          font-size: 2.1rem;
+        }
+       }
+
+       @media only screen and (max-width: 30.4em) {
+      .results__fig, .likes__fig {
+        flex: none;
+        width: 11rem;
+        height:11rem;
+        margin-right: 0;
+      }
+     }
+
+     @media only screen and (max-width: 30.4em) {
+      .results__name,
+      .like__name {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+     }
+
+     @media only screen and (max-width: 30.4em) {
+      .results__author,
+      .likes__author {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+     }
+
+     @media only screen and (max-width: 30.4em) {
+      .recipe__info-buttons {
+        visibility: visible;
+        opacity: 1;
+        padding-bottom: 0rem;
+        transform: none;
+
+
+      }
+    }
+
+
+
+    @media only screen and (max-width: 30.5em), screen and (max-height: 58em) {
+      .results__list {
+         grid-template-rows: repeat(3, 26vh) 10%;
+
+      }
+
+    }
+
+
+
+
+
+
+
+
 
 
 
