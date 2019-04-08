@@ -607,24 +607,24 @@ body {
 
      @media only screen and (max-width: 30.4em) {
       .recipe__ingredient-list {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
       }
       .recipe__info {
-        font-size: 2.5rem;
+        font-size: 4rem;
       }
       .btn-small, .btn-small:link, .btn-small:visited {
-        font-size: 2.3rem;
+        font-size: 3.5rem;
       }
 
       .heading-2 {
-        font-size: 2.8rem;
+        font-size: 4rem !important;
       }
 
       .recipe__directions-text {
-        font-size: 2.5rem !important;
+        font-size: 3.5rem !important;
       }
       .recipe__fig {
-        height: 24%;
+        height: 26vh;
       }
       .shopping-item {
         padding: 2.3rem 0 !important;
@@ -761,11 +761,37 @@ body {
     }
   }
 
-  @media only screen and (max-width: 30.4em) {
+      @media only screen and (max-width: 28em) {
+  .search__field {
+    font-size: 2rem;
+  }
+ }
+
+ @media only screen and (max-width: 30.4em) {
         .search__field {
-          font-size: 2.1rem;
+          font-size: 2.8rem;
         }
        }
+
+  @media only screen and (max-width: 33em) {
+    .search__field {
+    font-size: 3.4rem
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
        @media only screen and (max-width: 30.4em) {
       .results__fig, .likes__fig {
