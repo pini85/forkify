@@ -580,6 +580,7 @@ body {
     @media only screen and (max-width: 50em) {
       .shopping {
         grid-row: 4 / 5;
+        padding: 3rem 2rem;
       }
     }
 
@@ -630,17 +631,19 @@ body {
         padding: 2.3rem 0 !important;
       }
       .shopping__description {
-        font-size: 2.5rem !important;
+        font-size: 4.5rem !important;
       }
       .shopping__count-value {
         width: 9.7rem !important;
-        font-size: 2.2rem !important;
+        font-size: 4rem !important;
       }
       .shopping__delete {
-        right: 19px !important;
         width: 5.75rem !important;
         opacity: 1 !important;
-        visibility: visible !important:;
+        visibility: visible !important;
+      }
+      .shopping__count p {
+        font-size: 3.5rem;
       }
       .btn-tiny {
         height: 3.75rem;
@@ -760,24 +763,24 @@ body {
       margin-top: 2.5rem;
     }
   }
-
+/*
       @media only screen and (max-width: 28em) {
   .search__field {
     font-size: 2rem;
   }
- }
+ }*/
 
- @media only screen and (max-width: 30.4em) {
+ @media only screen and (max-width: 32em) {
         .search__field {
           font-size: 2.8rem;
         }
        }
 
-  @media only screen and (max-width: 33em) {
+  /*@media only screen and (m-width: 33em) {
     .search__field {
     font-size: 3.4rem
   }
-  }
+  }*/
 
 
 
@@ -805,7 +808,7 @@ body {
      @media only screen and (max-width: 30.4em) {
       .results__name,
       .like__name {
-        font-size: 2.5rem;
+        font-size: 4rem;
         text-align: center;
         margin-top: 2rem;
       }
@@ -814,7 +817,7 @@ body {
      @media only screen and (max-width: 30.4em) {
       .results__author,
       .likes__author {
-        font-size: 2.5rem;
+        font-size: 3rem;
         text-align: center;
       }
      }
